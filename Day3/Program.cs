@@ -1,6 +1,4 @@
-﻿using System.Text.RegularExpressions;
-
-var input = File.ReadLines("input.txt");
+﻿var input = File.ReadLines("input.txt");
 
 var sumOfIndividualPriorities = input.Select(GetCompartmentItems)
     .Select(GetItemInBothCompartments)
